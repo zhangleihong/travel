@@ -9,4 +9,5 @@ public interface UserDao {
     User findByCode(String code);
 
     void updateStatus(User user);
+    public User findByUsernameAndPassword(String username,String password);
 }
